@@ -1,0 +1,189 @@
+*{
+    /* background-color: rgb(0, 0, 0); */
+    background-color: rgb(0, 0, 0);
+    color: #e7dfdf;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.landingPage{
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.664);
+    background-image: url(images/netflix-background-gs7hjuwvv2g0e9fj.jpg);
+    background-blend-mode:soft-light;
+    background-size: cover;
+    background-color: transparent;
+    
+}
+.navbar{
+    display:inline-block;
+}
+#landingText{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    margin:0px;
+    background-color: transparent;
+}
+.sub{
+    font-size: 20px;
+    background-color: transparent;
+}
+.boxes{
+    margin-left: 100px;
+}
+#faq{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#box1,#box2,#box3,#box4,#box5,#box6{
+    padding: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    background-color: rgba(113, 113, 113, 0.29);
+    width: 1200px;
+    margin-bottom: 10px;
+
+}
+#textbox{
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#getButton{
+    background-color: rgb(188, 24, 24);
+    font-size: 25px;
+    font-weight: 300px;
+    margin-left: 10px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid rgb(185, 12, 12);
+    width: 190px;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#email{
+    font-size: 12px;
+    font-weight: lighter;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 7px;
+    margin-left: 15px;
+    background-color: rgb(21, 32, 48);
+}
+hr{
+    border: 4px solid rgb(53, 52, 52);
+}
+#langButton{
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 15px;
+    height: 32px;
+    width: 126.4px;
+}
+#signIn{
+    margin-right: 0px;
+    background-color: rgb(185, 12, 12);
+    font-size: 15px;
+    height: 32px;
+    width: 76.9px;
+    border-radius: 5px;
+    border: none;
+}
+#logo{
+    height: 65px;
+}
+#email{
+    height: 40px;
+    font-size: 15px;
+    width: 370px;
+    padding: 10px;
+    margin: 0px;
+    align-self: center;
+    background-color: rgba(87, 133, 194, 0.181);
+}
+.flexcontain{
+    display: flex;
+}
+.bigflex{
+    background-color:transparent;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section{
+    background-color: rgb(0, 0, 0);
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.id1{
+    height: 200px;
+    width: 490px;
+}
+.id2{
+    height: 333px;
+    width: 444px;
+    background-image: url(images/tv.png);
+    background-size: cover;
+}
+.titles{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin:0px;
+}
+.textbox{
+    font-size: 20px;
+    
+}
+.footer{
+    font-size: 14px;
+    margin-top: 50px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 400px;
+}
+.footerbox{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 20px;
+}
+.col{
+    margin: 0px;
+    padding: 0px;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#last{
+    align-self:flex-start;
+}
+#lang{
+    padding-top: 5px;
+    text-align: center;
+    height: 25px;
+    width: 75px;
+    border: 1px solid white;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+#fil{
+    background: none;
+    outline: none;
+    border: none;
+}
